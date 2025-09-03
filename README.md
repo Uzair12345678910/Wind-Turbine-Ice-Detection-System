@@ -1,25 +1,25 @@
 # Wind Turbine Ice Detection System
 
-Supervised ML pipeline for **icing risk** and **multiclass turbine states**
-using scikit-learn and XGBoost. Includes data prep, model training,
-SHAP analysis, and an interactive **Streamlit** app.
+End-to-end ML pipeline for **icing risk (binary)** and **turbine operating state (multiclass)** classification.  
+Built with **scikit-learn** and **XGBoost**, includes **SHAP** explainability and a **Streamlit** app for interactive exploration.  
+Large datasets and trained models are intentionally excluded so the repo stays lightweight and reproducible.
 
-## Quick start
-pip install -r requirements.txt
+---
 
-## Train (examples)
-python train_ice_risk_model.py
-python train_ice_risk_xgboost.py
-python train_multiclass_logistic_regression_model.py
-python train_multiclass_xgboost_model.py
+## 🔑 Key Features
 
-## Evaluate / Explain
-python multiclass_model_comparison.py
-python confusion_matrix_plot.py
-python shap_analysis_multiclass_models.py
+- 🧠 **Binary & Multiclass models**: Logistic Regression and XGBoost baselines
+- 📊 **Evaluation utilities**: metrics, confusion matrices, model comparison
+- 🧩 **Explainability**: SHAP (global + local attributions)
+- 🖥️ **Streamlit dashboard**: quick what-if analysis and visualization
+- 🧪 **Reproducible scripts**: one-command training/evaluation
+- 💾 **Data/model hygiene**: CSVs and pickled models are ignored by default
 
-## Run the app
-streamlit run streamlit_app.py
+---
 
-> Large data (`*.csv`) and trained models (`*.pkl`) are ignored by default.
-> Recreate them with the scripts above or add small samples.
+## 📦 Requirements
+
+- Python 3.9+ recommended
+- Install Python deps:
+  ```bash
+  pip install -r requirements.txt
