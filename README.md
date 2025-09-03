@@ -6,18 +6,18 @@ Large datasets and trained models are intentionally excluded so the repo stays l
 
 ---
 
-## 🔑 Key Features
+##  Key Features
 
-- 🧠 **Binary & Multiclass models**: Logistic Regression and XGBoost baselines
-- 📊 **Evaluation utilities**: metrics, confusion matrices, model comparison
-- 🧩 **Explainability**: SHAP (global + local attributions)
-- 🖥️ **Streamlit dashboard**: quick what-if analysis and visualization
-- 🧪 **Reproducible scripts**: one-command training/evaluation
-- 💾 **Data/model hygiene**: CSVs and pickled models are ignored by default
+-**Binary & Multiclass models**: Logistic Regression and XGBoost baselines
+-**Evaluation utilities**: metrics, confusion matrices, model comparison
+-**Explainability**: SHAP (global + local attributions)
+-**Streamlit dashboard**: quick what-if analysis and visualization
+-**Reproducible scripts**: one-command training/evaluation
+-**Data/model hygiene**: CSVs and pickled models are ignored by default
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.9+ recommended
 - Install Python deps:
