@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+
+# Data & models (keep repo light)
+*.csv
+*.pkl
+data/
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
